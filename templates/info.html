@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block main %}
+    <div class="container" id="infosection">
+        <h1>Welcome to the Dataplotter tool!</h1>
+        <br>
+        <p>This analyzes the data a tensile strain test gives you.</p>
+        <p>To use, upload a .csv file with your raw data from the Instron machine, which should have 3 columns for time, Extension (mm), and Force (N). Also enter the area and the thickness (the width) of your sample; please DO NOT enter units, just the numbers, or else it won't run. (Default settings are 3.81E-7 for area and 0.01 for thickness.)</p>
+        <p>Then hit "submit". You will get a plot with the Stress (MPa) vs. Strain, Young's modulus, and the standard deviation across all the files you upload. If you only upload one file, standard deviation would be 0.0.</p>
+        <p>Have fun analyzing data!</p>
+        <br>
+        <img src="/static/favicon.png"></img>
+    </div>
+{% endblock %}

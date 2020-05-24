@@ -1,0 +1,92 @@
+@font-face
+{
+  font-family: Nanum;
+  src: url(http://fonts.googleapis.com/css?family=Nanum);
+  font-weight: normal;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* some of this borrowed from C$50 Finance */
+
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+    font-family: "Nanum Gothic", sans-serif;
+    color: #333;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+    font-family: "Nanum Gothic", sans-serif;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    color: #666;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+main .container a:hover
+{
+    border-bottom: 1px dotted;
+}
+
+main #navbar
+{
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+main #infosection
+{
+    /* infosection styling */
+    text-align: center;
+    padding: 100px;
+}
+
+main #submitbutton
+{
+    outline: none;
+	cursor: pointer;
+}
+
+h1
+{
+    /* header 1 styling */
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    color: #333;
+    font-size: 150%;
+}
+
+h2
+{
+    /* hearder 2 styling */
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    color: #333;
+    font-size: 130%;
+}
+
+footer
+{
+    font-family: "Nanum Gothic", sans-serif;
+}

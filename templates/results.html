@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block main %}
+    <h2>Chart</h2>
+    <img src={{ url }} alt="chart">
+    <br>
+    <p>Young's modulus is <b>{{ modulus }} MPa</b>. The standard deviation is <b>{{ std }} MPa</b>.</p>
+    <p>Click <a href="{{ url }}" download>here</a> to download the image.</p>
+{% endblock %}
